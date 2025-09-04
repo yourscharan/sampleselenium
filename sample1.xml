@@ -1,0 +1,11 @@
+<suite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="sample.xsd" name="suite">
+	<listeners>
+		<!--<listener class-name="testng.ITESTLISTENER" />-->
+	</listeners>
+	<test name="test">
+		<classes>
+			<class name="testng.ListenerClass" />
+		</classes>
+	</test>
+</suite>

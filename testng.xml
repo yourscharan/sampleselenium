@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <!--<groups>
+  <run>
+  <include name="Software"></include>
+  </run>
+  </groups>-->
+  <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"></parameter>
+  <parameter name="username" value="Admin"></parameter>
+  <parameter name="password" value="admin123"></parameter>>
+    <classes>
+      <!--<class name="testng.TestNGAnnotationAttributes"/>
+      <class name="testng.verifySetup"/>
+      <class name="testng.TestNGAnnotationsHierarchy"/>
+      <class name="testng.Screenshot"/>-->
+      <class name="testng.LoginUsingParameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
